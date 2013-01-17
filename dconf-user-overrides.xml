@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release" uri="http://gfxmonk.net/dist/0install/dconf-user-overrides.xml">
+	<name>dconf-user-overrides</name>
+	<summary>dconf user overrides</summary>
+	<publish xmlns="http://gfxmonk.net/dist/0install" mode="ignore"/>
+	<description>
+dconf user overrides
+	</description>
+	<feed-for interface="http://gfxmonk.net/dist/0install/dconf-user-overrides.xml"/>
+	<group>
+		<command name="run" path="dconf-user-overrides">
+			<runner interface="http://repo.roscidus.com/python/python"/>
+		</command>
+		<requires interface="http://repo.roscidus.com/python/python"/>
+		<implementation id="sha1new=2d097297c658ed0d9c01b02d686a2b157b2ef0c1" released="2012-12-30" version="20121230.1851">
+			<manifest-digest sha256="f3b756139c4d75b66f5aced272c390b0dd5d8a0f828dcb361e35e417ab815136"/>
+			<archive href="http://gfxmonk.net/dist/0install/dconf-user-overrides/dconf-user-overrides-20121230.1851.tgz" size="797"/>
+		</implementation>
+	</group>
+</interface>

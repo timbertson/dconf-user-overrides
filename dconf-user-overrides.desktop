@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=dconf user overrides
+Comment=Update dconf user-overrides
+Exec=/usr/bin/env 0install run http://gfxmonk.net/dist/0install/dconf-user-overrides.xml
+Type=Application
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+

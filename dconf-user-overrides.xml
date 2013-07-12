@@ -17,5 +17,9 @@ dconf user overrides
 			<manifest-digest sha256="f3b756139c4d75b66f5aced272c390b0dd5d8a0f828dcb361e35e417ab815136"/>
 			<archive href="http://gfxmonk.net/dist/0install/dconf-user-overrides/dconf-user-overrides-20121230.1851.tgz" size="797"/>
 		</implementation>
+		<implementation id="sha1new=bc659e9b40087b71c98e1f3462ea7393071d5ff7" released="2013-07-12" version="20130712.2051">
+			<manifest-digest sha256new="GE7JIEVLZRARWVF3PJZLGV6OZ7IYKLANO6WBYVXBY2ETB3N2NLGQ"/>
+			<archive href="http://gfxmonk.net/dist/0install/dconf-user-overrides/dconf-user-overrides-20130712.2051.tgz" size="793"/>
+		</implementation>
 	</group>
 </interface>

@@ -6,7 +6,7 @@ and ensures dconf has these values set.
 from __future__ import print_function
 import os, sys
 from gi.repository import Gio
-import simplejson as json
+import json
 def p(*a):
 	print(*a, file=sys.stderr)
 base = os.path.expanduser("~/.config/dconf.user.d")

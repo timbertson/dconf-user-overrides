@@ -16,8 +16,8 @@ if os.path.exists(base):
 		with open(os.path.join(base, filename)) as f:
 			overrides = json.load(f)
 		for (key, val) in overrides.items():
-			base, var = key.rsplit(".", 1)
-			settings = Gio.Settings.new(base)
+			subject, var = key.rsplit(".", 1)
+			settings = Gio.Settings.new(subject)
 			current = settings[var]
 			# p("%s=%r" % (key, current))
 			if current != val:
